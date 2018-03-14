@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>新增地址</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="addressNew">
+	<ul class="address">
+		<li class="personNew">
+			<div class="tishi">联系人</div>
+			<ul class="personNewUl">
+				<li><div class="label">姓名：</div><input type="text" name="name" id="name" value="" placeholder="请填写收货人的姓名"/></li>
+				<li><div class="label">电话：</div><input type="text" name="name" id="name" value="" placeholder="请填写收货手机号码"/></li>
+			</ul>
+		</li>
+		<li class="addressNew">
+			<div class="tishi">收货地址</div>
+			<ul class="addressNewUl">
+				<!--<li>
+					<label for="name">省份：</label>
+					<select name="">
+						<option value="">请选择省份</option>
+						<option value="">北京</option>
+					</select>
+				</li>
+				<li>
+					<label for="name">城市：</label>
+					<select name="">
+						<option value="">请选择城市</option>
+						<option value="">请选择城市</option>
+					</select>
+				</li>
+				<li>
+					<label for="name">区县：</label>
+					<select name="">
+						<option value="">请选择乡镇</option>
+						<option value="">请选择城市</option>
+					</select>
+				</li>-->
+				<li><label for="name" class="last">详细地址：</label><textarea type="text" name="name" id="name" value="" placeholder="请填写街道地址"></textarea></li>
+			</ul>
+		</li>
+	</ul>
+	<input type="button" name="baocun" id="baocun" value="提交" class="baocun"/>
+	<div class="tit">若地址填写有误，请及时联系客服</div>
+</body>
+</html>
